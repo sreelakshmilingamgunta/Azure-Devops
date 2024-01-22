@@ -1,1 +1,5 @@
+---> why do we need branches ? 
+By default if we create a repository it will create a 'master' branch
+after creating a new branches we can delete master branch
+it is not mandatory to use master branch it is just a default branch
 
