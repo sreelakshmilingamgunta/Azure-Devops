@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.3" pages="11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.3" pages="12">
   <diagram name="Page-1" id="ZoBpS9ULMKsurSDR5Dd5">
     <mxGraphModel dx="1042" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -884,6 +884,47 @@
               <mxPoint x="30" y="270" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xA0NFtt3tN2nKkdQVW-6" name="Page-12">
+    <mxGraphModel dx="1042" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vPajXaCfHW98hcKmPtyr-1" value="Create uploadctl-stm file&amp;nbsp;&lt;br&gt;stm32.build/scripts/" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vPajXaCfHW98hcKmPtyr-2" value="Create mk6-stm.yaml" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vPajXaCfHW98hcKmPtyr-4" value="Add Policy&lt;br&gt;Mk6-stm&lt;br&gt;remote_path_policy.py" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="370" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vPajXaCfHW98hcKmPtyr-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vPajXaCfHW98hcKmPtyr-1" target="vPajXaCfHW98hcKmPtyr-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="445" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPajXaCfHW98hcKmPtyr-6" value="Mention the Created mk6-stm.yaml in the uploadctl script" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="160" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vPajXaCfHW98hcKmPtyr-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vPajXaCfHW98hcKmPtyr-4" target="vPajXaCfHW98hcKmPtyr-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="445" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPajXaCfHW98hcKmPtyr-8" value="Mention the policy in the mk6-stm&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
