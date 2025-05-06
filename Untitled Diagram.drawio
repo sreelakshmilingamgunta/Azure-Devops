@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.9" pages="11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.14" pages="12">
   <diagram name="Page-1" id="ZoBpS9ULMKsurSDR5Dd5">
     <mxGraphModel dx="1042" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -906,6 +906,53 @@
         </mxCell>
         <mxCell id="0gtY8LcGFUfSufwgIm82-4" value="Upload Artifacts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="900" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Gh2Y-6kURFQHVPzYrhji" name="Page-13">
+    <mxGraphModel dx="1034" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iVq7h8bxa3_IWwcj5RLn-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iVq7h8bxa3_IWwcj5RLn-2" target="iVq7h8bxa3_IWwcj5RLn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVq7h8bxa3_IWwcj5RLn-2" value="MK6-FBS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iVq7h8bxa3_IWwcj5RLn-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iVq7h8bxa3_IWwcj5RLn-3" target="iVq7h8bxa3_IWwcj5RLn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVq7h8bxa3_IWwcj5RLn-3" value="SDK" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iVq7h8bxa3_IWwcj5RLn-4" value="Download the SDK from Artifactory and execute the commands to create the infrastructure using it." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="200" y="212.5" width="350" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iVq7h8bxa3_IWwcj5RLn-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iVq7h8bxa3_IWwcj5RLn-5" target="iVq7h8bxa3_IWwcj5RLn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVq7h8bxa3_IWwcj5RLn-5" value="Linting" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iVq7h8bxa3_IWwcj5RLn-6" value="Execute the &lt;code data-end=&quot;86&quot; data-start=&quot;77&quot;&gt;lintctl&lt;/code&gt; file, which contains the commands to generate code files for different languages such as Python, C++, Rust, and TypeScript." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="200" y="312.5" width="400" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="iVq7h8bxa3_IWwcj5RLn-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iVq7h8bxa3_IWwcj5RLn-7" target="iVq7h8bxa3_IWwcj5RLn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVq7h8bxa3_IWwcj5RLn-7" value="Python Package" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iVq7h8bxa3_IWwcj5RLn-8" value="npm Package" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="500" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iVq7h8bxa3_IWwcj5RLn-9" value="Package the Python files, publish them to Artifactory" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="200" y="420" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVq7h8bxa3_IWwcj5RLn-10" value="Package the npm files, publish them to Artifactory" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="190" y="520" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
