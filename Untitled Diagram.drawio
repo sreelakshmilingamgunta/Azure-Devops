@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.2" pages="13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.6" pages="6">
   <diagram name="Page-1" id="ZoBpS9ULMKsurSDR5Dd5">
     <mxGraphModel dx="1042" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -323,325 +323,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="LYDQw0sMejPBzoYMB_NO" name="Page-2">
-    <mxGraphModel dx="1042" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="NTIWr6G3f2nPFVkg1oFn-1" value="Mk6 Remote HMI" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="40" y="50" width="390" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NTIWr6G3f2nPFVkg1oFn-2" value="&lt;b&gt;Dependencies&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="150" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NTIWr6G3f2nPFVkg1oFn-4" value="&lt;b&gt;check affected projects&lt;/b&gt;&lt;br&gt;nx show projects --affected" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="480" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NTIWr6G3f2nPFVkg1oFn-5" value="&lt;b&gt;Check Main or PR&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="250" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NTIWr6G3f2nPFVkg1oFn-24" value="&lt;b&gt;Tests&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="590" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NTIWr6G3f2nPFVkg1oFn-25" value="&lt;b&gt;Main&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="350" y="268" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NTIWr6G3f2nPFVkg1oFn-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="NTIWr6G3f2nPFVkg1oFn-5" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="210" as="sourcePoint" />
-            <mxPoint x="290" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NTIWr6G3f2nPFVkg1oFn-27" value="&lt;b&gt;Linting and Build&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="380" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hJGUyI9g0jA_1GcDcUWa-1" value="PR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="80" y="268" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hJGUyI9g0jA_1GcDcUWa-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.443;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NTIWr6G3f2nPFVkg1oFn-5" target="NTIWr6G3f2nPFVkg1oFn-27" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="420" as="sourcePoint" />
-            <mxPoint x="450" y="370" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="93" y="290" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hJGUyI9g0jA_1GcDcUWa-3" value="Linting and Build" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="340" y="380" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hJGUyI9g0jA_1GcDcUWa-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NTIWr6G3f2nPFVkg1oFn-5" target="hJGUyI9g0jA_1GcDcUWa-3" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="420" as="sourcePoint" />
-            <mxPoint x="450" y="370" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="400" y="290" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hJGUyI9g0jA_1GcDcUWa-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="NTIWr6G3f2nPFVkg1oFn-27" target="NTIWr6G3f2nPFVkg1oFn-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="420" as="sourcePoint" />
-            <mxPoint x="450" y="370" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="100" y="525" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hJGUyI9g0jA_1GcDcUWa-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="hJGUyI9g0jA_1GcDcUWa-3" target="NTIWr6G3f2nPFVkg1oFn-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="620" as="sourcePoint" />
-            <mxPoint x="450" y="570" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="400" y="525" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hJGUyI9g0jA_1GcDcUWa-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NTIWr6G3f2nPFVkg1oFn-4" target="NTIWr6G3f2nPFVkg1oFn-24" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="520" as="sourcePoint" />
-            <mxPoint x="450" y="470" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hJGUyI9g0jA_1GcDcUWa-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="NTIWr6G3f2nPFVkg1oFn-24" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="520" as="sourcePoint" />
-            <mxPoint x="400" y="620" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hJGUyI9g0jA_1GcDcUWa-9" value="Run Tests for each affected project" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="400" y="605" width="235" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hJGUyI9g0jA_1GcDcUWa-10" value="Upload to Artifactory" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="160" y="700" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hJGUyI9g0jA_1GcDcUWa-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NTIWr6G3f2nPFVkg1oFn-24" target="hJGUyI9g0jA_1GcDcUWa-10" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="520" as="sourcePoint" />
-            <mxPoint x="450" y="470" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="r8UWPyuUNdwRBsclYhit" name="Page-3">
-    <mxGraphModel dx="1042" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="YyWYdHGKix_2CJPGh-YI-1" value="ac-modiweb-presenter" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="130" y="40" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YyWYdHGKix_2CJPGh-YI-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YyWYdHGKix_2CJPGh-YI-3" target="YyWYdHGKix_2CJPGh-YI-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YyWYdHGKix_2CJPGh-YI-3" value="Debug" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="200" y="130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YyWYdHGKix_2CJPGh-YI-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YyWYdHGKix_2CJPGh-YI-5" target="YyWYdHGKix_2CJPGh-YI-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YyWYdHGKix_2CJPGh-YI-5" value="Cmake Configure Ninja" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="200" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YyWYdHGKix_2CJPGh-YI-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YyWYdHGKix_2CJPGh-YI-6" target="YyWYdHGKix_2CJPGh-YI-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YyWYdHGKix_2CJPGh-YI-6" value="Build" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="200" y="310" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YyWYdHGKix_2CJPGh-YI-7" value="Tests" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="200" y="400" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YyWYdHGKix_2CJPGh-YI-13" value="&lt;b&gt;cmake -B build -DTESTS=ON -DEXAMPLES=ON -GNinja&lt;br&gt;&lt;/b&gt;&lt;br&gt;Configures the project using CMake with the Ninja build system in the &#39;build&#39; directory and generates the build files which actually build the projects." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="205" width="440" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="YyWYdHGKix_2CJPGh-YI-14" value="&lt;b&gt;ninja -C build&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="325" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="YyWYdHGKix_2CJPGh-YI-15" value="" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YyWYdHGKix_2CJPGh-YI-1" target="YyWYdHGKix_2CJPGh-YI-3" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="220" as="sourcePoint" />
-            <mxPoint x="450" y="170" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="e2UxdknMS1WNBO_3dQQu" name="Page-4">
-    <mxGraphModel dx="1892" dy="1667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-3" value="Local HMI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;spacing=3;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="270" y="-20" width="240" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-4" value="lv_binding_js" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="30" y="90" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-5" value="Remote HMI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="540" y="90" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-8" value="Download and Execute SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="140" y="230" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-10" value="Build Host&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Configure Cmake and Build for the Host environment&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-100" y="310" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-12" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Binary files generated from both build stages.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial; font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;&quot;&gt;build_Host/lvgljs&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;Build_Target/lvgljs&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Upload to Artifactory&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-30" y="440" width="240" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-14" value="Dependencies" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="540" y="210" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-16" value="Check Main or PR" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="525" y="270" width="150" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-17" value="Lint &amp;amp; Build&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="405" y="350" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-18" value="Lint &amp;amp; Build" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="675" y="350" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-20" value="&lt;b&gt;.js&lt;/b&gt; &lt;b&gt;files generated from the build&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="525" y="460" width="175" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-21" value="&lt;b&gt;lv_bindings repository is used to create a binary object that, on an MK6 device, will be able to run the front-end &lt;code&gt;.js&lt;/code&gt; files.&lt;br&gt;&amp;nbsp;(&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;build/lvgljs run /path/to/hmi/index.js&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="80" y="650" width="740" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="u1vG9DTvmnFlZSDxA8hD-3" target="u1vG9DTvmnFlZSDxA8hD-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="400" as="sourcePoint" />
-            <mxPoint x="360" y="180" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="390" y="70" />
-              <mxPoint x="90" y="70" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="u1vG9DTvmnFlZSDxA8hD-5" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="40" as="sourcePoint" />
-            <mxPoint x="460" y="50" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="390" y="70" />
-              <mxPoint x="600" y="70" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="u1vG9DTvmnFlZSDxA8hD-4" target="u1vG9DTvmnFlZSDxA8hD-8" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="400" as="sourcePoint" />
-            <mxPoint x="460" y="350" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="90" y="180" />
-              <mxPoint x="200" y="180" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="u1vG9DTvmnFlZSDxA8hD-8" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="400" as="sourcePoint" />
-            <mxPoint x="200" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="u1vG9DTvmnFlZSDxA8hD-5" target="u1vG9DTvmnFlZSDxA8hD-14" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="300" as="sourcePoint" />
-            <mxPoint x="460" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="u1vG9DTvmnFlZSDxA8hD-14" target="u1vG9DTvmnFlZSDxA8hD-16" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="300" as="sourcePoint" />
-            <mxPoint x="460" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="u1vG9DTvmnFlZSDxA8hD-16" target="u1vG9DTvmnFlZSDxA8hD-17" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="300" as="sourcePoint" />
-            <mxPoint x="460" y="250" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="465" y="310" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="u1vG9DTvmnFlZSDxA8hD-16" target="u1vG9DTvmnFlZSDxA8hD-18" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="300" as="sourcePoint" />
-            <mxPoint x="460" y="250" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="735" y="310" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="u1vG9DTvmnFlZSDxA8hD-17" target="u1vG9DTvmnFlZSDxA8hD-20" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="400" as="sourcePoint" />
-            <mxPoint x="460" y="350" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="465" y="490" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="u1vG9DTvmnFlZSDxA8hD-18" target="u1vG9DTvmnFlZSDxA8hD-20" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="400" as="sourcePoint" />
-            <mxPoint x="460" y="350" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="735" y="490" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-545" y="400" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-38" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="930" y="50" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-39" value="" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="375" y="820" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="u1vG9DTvmnFlZSDxA8hD-40" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="305" y="-240" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AHvIS8ruAsUji9tC6_Dx-1" value="&lt;b&gt;Download the latest binary file of lv_binding_js from the artifactory&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="210" y="620" width="400" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AHvIS8ruAsUji9tC6_Dx-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="u1vG9DTvmnFlZSDxA8hD-10">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="180" as="sourcePoint" />
-            <mxPoint x="400" y="320" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-40" y="180" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="AHvIS8ruAsUji9tC6_Dx-5" value="Build Target&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Configure Cmake and Build for theTarget environment&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="140" y="310" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AHvIS8ruAsUji9tC6_Dx-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.475;entryY=-0.046;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-44" y="390" as="sourcePoint" />
-            <mxPoint x="80" y="436.7800000000002" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-44" y="410" />
-              <mxPoint x="80" y="410" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="AHvIS8ruAsUji9tC6_Dx-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AHvIS8ruAsUji9tC6_Dx-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="370" as="sourcePoint" />
-            <mxPoint x="80" y="410" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="200" y="410" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram name="Page-6" id="zyMo3ICMyCe-Zs7Siqa9">
     <mxGraphModel dx="1892" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -679,63 +360,6 @@
         </mxCell>
         <mxCell id="0ORsDFgnFFuO8Z9a0hSP-4" value="Hardware&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="280" y="395" width="90" height="30" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="Page-7" id="F5nNCeMutPINoD7vdr5l">
-    <mxGraphModel dx="1042" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="XA4HDb4YDBhtRop6Fbd0-1" value="Download and Install SDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="100" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="XA4HDb4YDBhtRop6Fbd0-2" value="CMake Configure" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="XA4HDb4YDBhtRop6Fbd0-3" value="Build (Ninja)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="300" width="120" height="60" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="K8ggLPp6ZkhtxhqREgoG" name="Page-9">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="vDge0yzi62GEibe-SNUO" name="Page-10">
-    <mxGraphModel dx="1042" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="DBs9pvNru8-MiTQoAK1z-1" value="Manifest Repo" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="330" y="80" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="DBs9pvNru8-MiTQoAK1z-3" value="Build_Id&lt;br&gt;Sw_Version" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="540" y="180" width="130" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="DBs9pvNru8-MiTQoAK1z-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ABC&lt;br&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;Retrieving &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;23&quot; data-start=&quot;11&quot;&gt;SW_Version&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt; and &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;38&quot; data-start=&quot;28&quot;&gt;Build_ID&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt; from the ABC repository, which is present in Artifactory. It is used to generate unique IDs.&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="690" y="150" width="280" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="DBs9pvNru8-MiTQoAK1z-6" value="Jenkins Build" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="330" y="260" width="140" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="DBs9pvNru8-MiTQoAK1z-8" value="&lt;b&gt;Uploads to Artifactory&lt;br&gt;using uploadctl script&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="325" y="420" width="150" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="DBs9pvNru8-MiTQoAK1z-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Scripts&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;We&#39;ll run the scripts to get the unique build ID from ABC and increment the &lt;code data-end=&quot;88&quot; data-start=&quot;76&quot;&gt;SW_Version&lt;/code&gt; for the release. These scripts are present in the &lt;code data-end=&quot;151&quot; data-start=&quot;139&quot;&gt;&lt;b&gt;ci.tooling&lt;/b&gt;&lt;/code&gt; repository.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="290" width="260" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="DBs9pvNru8-MiTQoAK1z-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DBs9pvNru8-MiTQoAK1z-6" target="DBs9pvNru8-MiTQoAK1z-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="320" as="sourcePoint" />
-            <mxPoint x="500" y="270" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -910,72 +534,47 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Gh2Y-6kURFQHVPzYrhji" name="Page-13">
-    <mxGraphModel dx="1884" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="iVq7h8bxa3_IWwcj5RLn-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iVq7h8bxa3_IWwcj5RLn-2" target="iVq7h8bxa3_IWwcj5RLn-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="iVq7h8bxa3_IWwcj5RLn-2" value="MK6-FBS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="50" y="90" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="iVq7h8bxa3_IWwcj5RLn-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iVq7h8bxa3_IWwcj5RLn-3" target="iVq7h8bxa3_IWwcj5RLn-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="iVq7h8bxa3_IWwcj5RLn-3" value="SDK" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="50" y="200" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="iVq7h8bxa3_IWwcj5RLn-4" value="Download the SDK from Artifactory and execute the commands to create the infrastructure using it." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="200" y="212.5" width="350" height="47.5" as="geometry" />
-        </mxCell>
-        <mxCell id="iVq7h8bxa3_IWwcj5RLn-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iVq7h8bxa3_IWwcj5RLn-5" target="iVq7h8bxa3_IWwcj5RLn-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="iVq7h8bxa3_IWwcj5RLn-5" value="Linting" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="50" y="300" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="iVq7h8bxa3_IWwcj5RLn-6" value="Execute the &lt;code data-end=&quot;86&quot; data-start=&quot;77&quot;&gt;lintctl&lt;/code&gt; file, which contains the commands to generate code files for different languages such as Python, C++, Rust, and TypeScript." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="200" y="312.5" width="400" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="iVq7h8bxa3_IWwcj5RLn-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iVq7h8bxa3_IWwcj5RLn-7" target="iVq7h8bxa3_IWwcj5RLn-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="iVq7h8bxa3_IWwcj5RLn-7" value="Python Package" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="50" y="400" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="iVq7h8bxa3_IWwcj5RLn-8" value="npm Package" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="50" y="500" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="iVq7h8bxa3_IWwcj5RLn-9" value="Package the Python files, publish them to Artifactory" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="200" y="420" width="370" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="iVq7h8bxa3_IWwcj5RLn-10" value="Package the npm files, publish them to Artifactory" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="190" y="520" width="370" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="iVq7h8bxa3_IWwcj5RLn-15" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="300" width="60" height="30" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="ShYFAW-0M-53XCl_3eNz" name="Page-14">
+  <diagram id="eNJ-KXBUYk3BOrf5-AHR" name="Page-7">
     <mxGraphModel dx="1034" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SIBNjREqSsbeRio5kaE5-26" value="Test Branch&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="155" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="Ap8q8jArk4KTN30eo8a6-1" value="Energon3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SIBNjREqSsbeRio5kaE5-27" value="We won&#39;t run the publish step in the test branch. Instead, we&#39;ll commit the generated files back to the test branch. After the PR is merged, the generated files will be added to the master branch." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="160" width="175" height="120" as="geometry" />
+        <mxCell id="Ap8q8jArk4KTN30eo8a6-2" value="Configure build" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SIBNjREqSsbeRio5kaE5-28" value="we&#39;ll publish the package and we won&#39;t commit back the changes to main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="160" width="190" height="120" as="geometry" />
+        <mxCell id="Ap8q8jArk4KTN30eo8a6-3" value="Checkout buildscripts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SIBNjREqSsbeRio5kaE5-29" value="Main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="Ap8q8jArk4KTN30eo8a6-5" value="Build Airchitect Click-Once installers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt; python Buildscripts/windows_release_builder.py Airchitect &lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" id="Ap8q8jArk4KTN30eo8a6-6">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="220" y="590" width="470" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Ap8q8jArk4KTN30eo8a6-7" value="--updateversion" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="220" y="640" width="130" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="Find .exe and .dll files.&#xa;Add a digital signature to them using a tool (like signtool.exe)." id="Ap8q8jArk4KTN30eo8a6-9">
+          <mxCell style="text;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+            <mxGeometry x="340" y="695" width="360" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Ap8q8jArk4KTN30eo8a6-10" value="--signFiles" style="text;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="700" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8q8jArk4KTN30eo8a6-12" value="Calls the function update version in the windows relase builder.py and that function will run updateversion.py file which is present in the desktop-buildscripts repo&lt;br&gt;and that will update the version in the particular files." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="650" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8q8jArk4KTN30eo8a6-13" value="Version Bump and Tag" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ap8q8jArk4KTN30eo8a6-14" value="Moved --updateversion to this stage and and pushing the version tag to the&amp;nbsp;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="485" width="350" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
