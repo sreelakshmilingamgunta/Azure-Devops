@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.6" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.4" pages="7">
   <diagram name="Page-1" id="ZoBpS9ULMKsurSDR5Dd5">
     <mxGraphModel dx="1042" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -575,6 +575,68 @@
         </mxCell>
         <mxCell id="Ap8q8jArk4KTN30eo8a6-14" value="Moved --updateversion to this stage and and pushing the version tag to the&amp;nbsp;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="380" y="485" width="350" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fu6JCM7tvBS2GWoBWU0A" name="Page-9">
+    <mxGraphModel dx="1884" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E-ed3hksr1Ahk-2mSBEW-11" edge="1" parent="1" source="E-ed3hksr1Ahk-2mSBEW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="E-ed3hksr1Ahk-2mSBEW-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E-ed3hksr1Ahk-2mSBEW-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="Meta-mk6-app" vertex="1">
+          <mxGeometry height="80" width="140" x="60" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E-ed3hksr1Ahk-2mSBEW-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="contains the source code of sdk&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="140" x="-120" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="E-ed3hksr1Ahk-2mSBEW-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="Mk6-dev-tools" vertex="1">
+          <mxGeometry height="80" width="140" x="60" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="E-ed3hksr1Ahk-2mSBEW-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Consists the scripts to download the sdk files from the artifactory&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="150" x="-110" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="E-ed3hksr1Ahk-2mSBEW-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="Mk6-sdk-ci" vertex="1">
+          <mxGeometry height="80" width="140" x="215" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="E-ed3hksr1Ahk-2mSBEW-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Previously whenever we need sdk we used to install from mk6-dev-tools now we added this inisde the docker container." vertex="1">
+          <mxGeometry height="30" width="150" x="50" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="E-ed3hksr1Ahk-2mSBEW-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="build.manifest - mk6.xml" vertex="1">
+          <mxGeometry height="80" width="140" x="355" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E-ed3hksr1Ahk-2mSBEW-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Builds and uploads SDK env files to artifactory" vertex="1">
+          <mxGeometry height="30" width="120" x="225" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="E-ed3hksr1Ahk-2mSBEW-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" value="Artifactory" vertex="1">
+          <mxGeometry height="80" width="120" x="365" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="E-ed3hksr1Ahk-2mSBEW-14" edge="1" parent="1" source="E-ed3hksr1Ahk-2mSBEW-8" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="E-ed3hksr1Ahk-2mSBEW-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="320" as="sourcePoint" />
+            <mxPoint x="330" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E-ed3hksr1Ahk-2mSBEW-16" edge="1" parent="1" source="E-ed3hksr1Ahk-2mSBEW-8" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="E-ed3hksr1Ahk-2mSBEW-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="120" />
+              <mxPoint x="600" y="400" />
+            </Array>
+            <mxPoint x="280" y="320" as="sourcePoint" />
+            <mxPoint x="330" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E-ed3hksr1Ahk-2mSBEW-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ACOS VERSION" vertex="1">
+          <mxGeometry height="30" width="110" x="500" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="E-ed3hksr1Ahk-2mSBEW-18" parent="1" style="text;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;div style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; font-style: normal; line-height: 20px;&quot;&gt;mk6-sdk-ci:&amp;lt;sdk-version&amp;gt;-&amp;lt;acos-version&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="300" x="365" y="400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
