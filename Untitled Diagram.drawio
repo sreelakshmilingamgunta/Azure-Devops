@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.0" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.0" pages="10">
   <diagram name="Page-1" id="ZoBpS9ULMKsurSDR5Dd5">
     <mxGraphModel dx="1042" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -841,7 +841,7 @@
         <mxCell id="FTPfOA1blvSSXFaizQHR-9" parent="1" style="text;whiteSpace=wrap;" value="Technician preloads: licences, Auth, config(PFM/DCM mappings) " vertex="1">
           <mxGeometry height="40" width="170" x="320" y="-30" as="geometry" />
         </mxCell>
-        <mxCell id="FTPfOA1blvSSXFaizQHR-11" parent="1" style="text;whiteSpace=wrap;" value="DataCore acts as a hub, forwarding machine data to all these systems. " vertex="1">
+        <mxCell id="FTPfOA1blvSSXFaizQHR-11" parent="1" style="text;whiteSpace=wrap;horizontal=1;fontSize=13;fontStyle=0" value="DataCore acts as a hub, forwarding machine data to all these systems. " vertex="1">
           <mxGeometry height="60" width="210" x="62.5" y="200" as="geometry" />
         </mxCell>
         <mxCell id="FTPfOA1blvSSXFaizQHR-12" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p data-local-id=&quot;22ad4360d921&quot; data-prosemirror-content-type=&quot;node&quot; data-prosemirror-node-name=&quot;paragraph&quot; data-prosemirror-node-block=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px;&quot;&gt;The translator that reads raw STM32 data, decodes it using configuration from data cloud export, and publishes only the requested pieces via MQTT.&lt;/span&gt;&lt;/p&gt;" vertex="1">
@@ -857,6 +857,192 @@
           <mxGeometry height="40" width="200" x="-124.37" y="20" as="geometry" />
         </mxCell>
         <mxCell id="FTPfOA1blvSSXFaizQHR-23" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p data-local-id=&quot;22ad4360d921&quot; data-prosemirror-content-type=&quot;node&quot; data-prosemirror-node-name=&quot;paragraph&quot; data-prosemirror-node-block=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px;&quot;&gt;The translator that reads raw STM32 data, decodes it using configuration from data cloud export, and publishes only the requested pieces via MQTT.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px;&quot;&gt;&lt;font face=&quot;Segoe UI&quot;&gt;DataCore acts as a hub, forwarding machine data to all these systems.&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="390" x="-540" y="500" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of Page-13" id="7GbjJBHxoV_JETcwAztH">
+    <mxGraphModel dx="2268" dy="1880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="19boaSAZOLK2bqCVATxz-0" />
+        <mxCell id="19boaSAZOLK2bqCVATxz-1" parent="19boaSAZOLK2bqCVATxz-0" />
+        <mxCell id="19boaSAZOLK2bqCVATxz-2" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.468;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-30" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-3" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-240" y="-10" />
+              <mxPoint x="-240" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-4" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" value="PFM" vertex="1">
+          <mxGeometry height="40" width="120" x="-190" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-5" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" value="DCM" vertex="1">
+          <mxGeometry height="40" width="120" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-6" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-36.86999999999989" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-7" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" value="DATA CLOUD EXPORT&lt;br&gt;OD layout/types/mappings" vertex="1">
+          <mxGeometry height="80" width="140" x="-106.87" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-8" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.575;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-9" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-10" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" value="ac-bookkeeper" vertex="1">
+          <mxGeometry height="60" width="165" x="250" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-11" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-12" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" value="ac-control&lt;br&gt;Parser OD ---&amp;gt; points+flatbuffers" vertex="1">
+          <mxGeometry height="60" width="177.49" x="-113.12" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-13" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-14" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" value="AIRBASE" vertex="1">
+          <mxGeometry height="60" width="230" x="445" y="-110" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-15" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;PDP&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="500" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-16" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-17" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" value="MK6 Controller&lt;br&gt;IMX9 + STM32" vertex="1">
+          <mxGeometry height="60" width="140" x="370" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-18" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-19" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" value="Ac-network-control" vertex="1">
+          <mxGeometry height="60" width="140" x="370" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-20" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-21" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" value="Modiweb Presenter" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-22" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="19boaSAZOLK2bqCVATxz-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-23" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" value="ac-datacore&lt;br&gt;Distributes OD metadata" vertex="1">
+          <mxGeometry height="60" width="165" x="-113.12" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-24" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" value="Remote HMI&lt;br&gt;Https dashboard&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="272.5" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-25" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" value="Local HMI" vertex="1">
+          <mxGeometry height="60" width="120" x="272.5" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-26" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" value="OPC-UA server&lt;br&gt;MQTT -&amp;gt; OPC bridge" vertex="1">
+          <mxGeometry height="60" width="120" x="425" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-27" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-28" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" value="STM32-proxy" vertex="1">
+          <mxGeometry height="60" width="177.49" x="-113.12" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-29" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" value="STM32 Control Core&lt;br&gt;Object Dictionary" vertex="1">
+          <mxGeometry height="60" width="177.49" x="-113.12" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-30" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.006;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-31" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.55;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-32" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.425;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-33" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-34" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="64" y="310" as="sourcePoint" />
+            <mxPoint x="250" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-34" parent="19boaSAZOLK2bqCVATxz-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#143642;" value="Publish points+ Flatbuffers" vertex="1">
+          <mxGeometry height="50" width="60" x="110" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-35" parent="19boaSAZOLK2bqCVATxz-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];labelBackgroundColor=none;fontColor=#143642;" value="Publish Requests" vertex="1">
+          <mxGeometry height="30" width="60" x="47.49000000000001" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-36" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-29" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="760" as="sourcePoint" />
+            <mxPoint x="450" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-37" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.322;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-140" y="340" />
+              <mxPoint x="-140" y="520" />
+              <mxPoint x="-56" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-38" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.361;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-39" parent="19boaSAZOLK2bqCVATxz-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontColor=#143642;" value="Request Raw OD" vertex="1">
+          <mxGeometry height="30" width="60" x="-200" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-40" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-41" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" value="HAL" vertex="1">
+          <mxGeometry height="60" width="120" x="-290" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-42" edge="1" parent="19boaSAZOLK2bqCVATxz-1" source="19boaSAZOLK2bqCVATxz-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;" target="19boaSAZOLK2bqCVATxz-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-43" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" value="BootLoader" vertex="1">
+          <mxGeometry height="60" width="120" x="-290" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-44" parent="19boaSAZOLK2bqCVATxz-1" style="text;whiteSpace=wrap;html=1;" value="&lt;p data-local-id=&quot;460da67d8504&quot; data-prosemirror-content-type=&quot;node&quot; data-prosemirror-node-name=&quot;paragraph&quot; data-prosemirror-node-block=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;font face=&quot;Segoe UI&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Atlas Copco’s fleet‑management cloud platform&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="630" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-45" parent="19boaSAZOLK2bqCVATxz-1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="1110" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-46" parent="19boaSAZOLK2bqCVATxz-1" style="text;whiteSpace=wrap;" value="Technician preloads: licences, Auth, config(PFM/DCM mappings) " vertex="1">
+          <mxGeometry height="40" width="170" x="320" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-47" parent="19boaSAZOLK2bqCVATxz-1" style="text;whiteSpace=wrap;horizontal=1;fontSize=13;fontStyle=0" value="DataCore acts as a hub, forwarding machine data to all these systems. " vertex="1">
+          <mxGeometry height="60" width="210" x="62.5" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-48" parent="19boaSAZOLK2bqCVATxz-1" style="text;whiteSpace=wrap;html=1;" value="&lt;p data-local-id=&quot;22ad4360d921&quot; data-prosemirror-content-type=&quot;node&quot; data-prosemirror-node-name=&quot;paragraph&quot; data-prosemirror-node-block=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px;&quot;&gt;The translator that reads raw STM32 data, decodes it using configuration from data cloud export, and publishes only the requested pieces via MQTT.&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="-370" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-49" parent="19boaSAZOLK2bqCVATxz-1" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;font-family:&#39;Segoe UI&#39;;font-size:14px;font-style:normal;font-weight:400;line-height:20px&quot;&gt;Network Control is the central network manager for the Mk6 iMX9 system, and all other Mk6 applications talk to it through MQTT instead of talking directly to hardware.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="330" x="520" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-50" parent="19boaSAZOLK2bqCVATxz-1" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;font-family:&#39;Segoe UI&#39;;font-size:14px;font-style:normal;font-weight:400;line-height:20px&quot;&gt;ac‑bookkeeper is a central MQTT service whose job is to coordinate MQTT topic requests and publishing flows between data users and data owners.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="310" x="450" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-51" parent="19boaSAZOLK2bqCVATxz-1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;machine configuration data&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="200" x="-124.37" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="19boaSAZOLK2bqCVATxz-52" parent="19boaSAZOLK2bqCVATxz-1" style="text;whiteSpace=wrap;html=1;" value="&lt;p data-local-id=&quot;22ad4360d921&quot; data-prosemirror-content-type=&quot;node&quot; data-prosemirror-node-name=&quot;paragraph&quot; data-prosemirror-node-block=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px;&quot;&gt;The translator that reads raw STM32 data, decodes it using configuration from data cloud export, and publishes only the requested pieces via MQTT.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px;&quot;&gt;&lt;font face=&quot;Segoe UI&quot;&gt;DataCore acts as a hub, forwarding machine data to all these systems.&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="80" width="390" x="-540" y="500" as="geometry" />
         </mxCell>
       </root>
