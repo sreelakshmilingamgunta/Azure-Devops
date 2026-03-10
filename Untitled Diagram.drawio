@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.0" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.1" pages="11">
   <diagram name="Page-1" id="ZoBpS9ULMKsurSDR5Dd5">
     <mxGraphModel dx="1042" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1041,6 +1041,91 @@
         </mxCell>
         <mxCell id="19boaSAZOLK2bqCVATxz-52" parent="19boaSAZOLK2bqCVATxz-1" style="text;whiteSpace=wrap;html=1;" value="&lt;p data-local-id=&quot;22ad4360d921&quot; data-prosemirror-content-type=&quot;node&quot; data-prosemirror-node-name=&quot;paragraph&quot; data-prosemirror-node-block=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px;&quot;&gt;The translator that reads raw STM32 data, decodes it using configuration from data cloud export, and publishes only the requested pieces via MQTT.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px;&quot;&gt;&lt;font face=&quot;Segoe UI&quot;&gt;DataCore acts as a hub, forwarding machine data to all these systems.&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="80" width="390" x="-540" y="500" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mHuwD5_WNkqEGm-gMoKC" name="Page-14">
+    <mxGraphModel dx="1034" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-28" edge="1" parent="1" source="t--a9H9CWZR8hILZ6E7S-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t--a9H9CWZR8hILZ6E7S-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Dependencies" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-4" edge="1" parent="1" source="t--a9H9CWZR8hILZ6E7S-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t--a9H9CWZR8hILZ6E7S-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-5" edge="1" parent="1" source="t--a9H9CWZR8hILZ6E7S-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Check Build Logic" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-11" edge="1" parent="1" source="t--a9H9CWZR8hILZ6E7S-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t--a9H9CWZR8hILZ6E7S-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Upstream Trigger" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-17" edge="1" parent="1" source="t--a9H9CWZR8hILZ6E7S-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t--a9H9CWZR8hILZ6E7S-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Branch Trigger" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="triggered by upstream&lt;br&gt;(Build.manifest)" vertex="1">
+          <mxGeometry height="30" width="100" x="80" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="branch pushes, PR&#39;s or manual runs" vertex="1">
+          <mxGeometry height="30" width="80" x="560" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-13" edge="1" parent="1" source="t--a9H9CWZR8hILZ6E7S-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t--a9H9CWZR8hILZ6E7S-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="manifest =mk6.xml" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-20" edge="1" parent="1" source="t--a9H9CWZR8hILZ6E7S-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t--a9H9CWZR8hILZ6E7S-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Extracts ACOS_VERSION&lt;br&gt;and Push the tag" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Stop the build" vertex="1">
+          <mxGeometry height="60" width="120" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-15" edge="1" parent="1" source="t--a9H9CWZR8hILZ6E7S-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.423;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" target="t--a9H9CWZR8hILZ6E7S-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Get the tag from repo tags&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-26" edge="1" parent="1" source="t--a9H9CWZR8hILZ6E7S-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t--a9H9CWZR8hILZ6E7S-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Build&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-24" edge="1" parent="1" source="t--a9H9CWZR8hILZ6E7S-16" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="t--a9H9CWZR8hILZ6E7S-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="680" />
+            </Array>
+            <mxPoint x="400" y="510" as="sourcePoint" />
+            <mxPoint x="560" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Push&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="t--a9H9CWZR8hILZ6E7S-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: start; font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; line-height: 20px;&quot;&gt;Build for all branches except main. The main branch should only build when triggered by an upstream pipeline, since it needs to build the latest SDK&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="570" y="670" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
